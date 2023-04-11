@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/bigsign"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/emailet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="30dp"
+                android:textColor="@android:color/background_light"
+                android:shadowColor="#672918"
+                android:shadowRadius="5"
+                android:hint="Enter Email Here"
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:id="@+id/passet"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="30dp"
+                android:textColor="@android:color/background_light"
+                android:shadowColor="#672918"
+                android:shadowRadius="5"
+                android:hint="Enter Password Here"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+                <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="New User"
+            android:id="@+id/newUser"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="OK"
+            android:id="@+id/ok"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:shadowColor="#672918"
+            android:shadowRadius="5" />
+    </LinearLayout>
+
+</LinearLayout>

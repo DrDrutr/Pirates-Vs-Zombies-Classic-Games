@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameList"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    android:layoutDirection="ltr">
+
+    <ImageView
+        android:id="@+id/gametitle"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:src="@drawable/gamesign"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/luckpic" />
+
+                <Button
+                    android:id="@+id/wheelluck"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Lucky Wheel"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="40dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/checkers1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/checkerspic"/>
+
+                <Button
+                    android:id="@+id/checkers"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Checkers"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="50dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/minesweeper1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/minesweeperpic"/>
+
+                <Button
+                    android:id="@+id/minesweeper"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Minesweeper"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="40dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/connect41"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/connectpic"/>
+
+                <Button
+                    android:id="@+id/connect4"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Connect 4"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="50dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/Mancala1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mancalapic"/>
+
+                <Button
+                    android:id="@+id/Mancala"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Mancala"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="60dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/tictactoe1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tictactoepic"/>
+
+                <Button
+                    android:id="@+id/tictactoe"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Tic Tac Toe"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="45dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mastermindpic"/>
+
+                <Button
+                    android:id="@+id/mastermind"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Mastermind"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="45dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chasepic"/>
+
+                <Button
+                    android:id="@+id/chase"
+                    android:layout_width="250dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:text="Chase"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHighlight="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="50dp"
+                    android:typeface="normal"
+                    tools:textColorHighlight="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

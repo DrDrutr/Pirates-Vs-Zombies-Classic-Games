@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="@drawable/bigsign"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/useret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="30dp"
+                android:textColor="@android:color/background_light"
+                android:shadowColor="#672918"
+                android:shadowRadius="5"
+                android:hint="Enter Username Here"/>
+                <EditText
+                    android:id="@+id/passet"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/background_light"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:hint="Enter Password Here"
+                    android:inputType="textPassword"/>
+                <EditText
+                    android:id="@+id/passcet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/background_light"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:hint="Enter Password Again"
+                    android:inputType="textPassword"/>
+                <EditText
+                    android:id="@+id/emailet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/background_light"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:hint="Enter Email Here"
+                    android:inputType="textEmailAddress"/>
+                <TextView
+                    android:id="@+id/bdet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/background_light"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:hint="Enter Birthday Date"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Old User"
+        android:id="@+id/oldUser"
+        android:background="@drawable/button"
+        android:shadowColor="#672918"
+        android:shadowRadius="5"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="OK"
+        android:id="@+id/ok"
+        android:background="@drawable/button"
+        android:shadowColor="#672918"
+        android:shadowRadius="5"/>
+</LinearLayout>
+
+
+</LinearLayout>

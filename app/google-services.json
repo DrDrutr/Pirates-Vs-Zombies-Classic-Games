@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "4911234474",
+    "firebase_url": "https://pirateszombies-68ac1.firebaseio.com",
+    "project_id": "pirateszombies-68ac1",
+    "storage_bucket": "pirateszombies-68ac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4911234474:android:ca1b0f56d56cd631",
+        "android_client_info": {
+          "package_name": "com.example.piratesvszombiesclassicgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4911234474-cr85v1qudna6g5lf0nfeju8c9s1alits.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0MrODUixxPu9iq4LQf2zK-w3qgLIZyFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

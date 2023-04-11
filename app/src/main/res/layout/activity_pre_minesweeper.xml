@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preMinesweeper"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/minesweepertitle" />
+
+
+        <Button
+            android:id="@+id/easy"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:text="Easy"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:id="@+id/medium"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:text="Medium"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:id="@+id/expert"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:text="Expert"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:background="@drawable/button" />
+
+        <Button
+            android:id="@+id/Custom"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:text="Custom"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            android:background="@drawable/button" />
+
+        <TableLayout
+            android:id="@+id/change"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:visibility="gone"
+            android:background="@drawable/bigsign"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Width"
+                    android:textSize="30dp"
+                    android:id="@+id/tv1"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+
+                <SeekBar
+                    android:id="@+id/width"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:alpha="0.7"
+                    android:max="20"
+                    android:minHeight="30dp"
+                    android:progressDrawable="@drawable/seekbar" />
+
+                <TextView
+                    android:id="@+id/widthnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="30dp"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:textSize="30dp"
+                    android:id="@+id/tv2"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+
+                <SeekBar
+                    android:id="@+id/height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:alpha="0.7"
+                    android:max="20"
+                    android:minHeight="30dp"
+                    android:progressDrawable="@drawable/seekbar" />
+
+                <TextView
+                    android:id="@+id/heightnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="30dp"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bombs"
+                    android:textSize="30dp"
+                    android:id="@+id/tv3"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+
+                <SeekBar
+                    android:id="@+id/bombs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:alpha="0.7"
+                    android:max="81"
+                    android:minHeight="30dp"
+                    android:progressDrawable="@drawable/seekbar" />
+
+                <TextView
+                    android:id="@+id/bombnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="30dp"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/changeMM"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:visibility="gone"
+            android:background="@drawable/bigsign"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Holes"
+                    android:textSize="30dp"
+                    android:id="@+id/tv1MM"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+
+                <SeekBar
+                    android:id="@+id/holes"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:alpha="0.7"
+                    android:max="7"
+                    android:minHeight="30dp"
+                    android:progressDrawable="@drawable/seekbar" />
+
+                <TextView
+                    android:id="@+id/holesnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="30dp"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colors"
+                    android:textSize="30dp"
+                    android:id="@+id/tv2MM"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+
+                <SeekBar
+                    android:id="@+id/colors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:alpha="0.7"
+                    android:max="7"
+                    android:minHeight="30dp"
+                    android:progressDrawable="@drawable/seekbar" />
+
+                <TextView
+                    android:id="@+id/colorsnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textSize="30dp"
+                    android:shadowColor="#672918"
+                    android:shadowRadius="5"
+                    android:textColor="@android:color/background_light"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:shadowColor="#672918"
+            android:shadowRadius="5"
+            android:text="Let's play"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textSize="30sp"
+            android:typeface="normal"
+            android:visibility="gone"
+            tools:textColorHighlight="#000000" />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:foregroundGravity="bottom|right"
+        app:srcCompat="@drawable/baseline_add_white_36dp1"/>
+</RelativeLayout>
